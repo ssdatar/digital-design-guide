@@ -1,18 +1,3 @@
-# My Project
+# AJC News Apps Digital Design Guide
 
-Description:
-
-Published:
-
-Lives here:
-
-Hosted here:
-
-## Dependencies
-
-## Notes
-
-## Todo
-
-- [ ] Get started
-- [ ] Do some stuff
+In progress
