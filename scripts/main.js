@@ -37,7 +37,7 @@
 	function drawScale(color,scaleDiv,baseDiv){
 
 		darkShade = chroma(color).saturate(),
-		lightShade = darkShade.brighten(60),
+		lightShade = darkShade.brighten(50),
 		shadeScale = chroma.scale([darkShade, lightShade]).domain([0,7]).out('hex');
 		
 		$('#data-viz li').each(function(i){
