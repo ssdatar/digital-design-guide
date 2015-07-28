@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>AJC Styles</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Social Open Graph Metas: fill these out to make your fb sharing post
+  ================================================== -->
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-touch-fullscreen" content="yes">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="style/lib/foundation.css">
+  <link rel="stylesheet" href="style/lib/normalize.css">
+  <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" href="style/app.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- styles for just this page. actual styles for use live in app.css -->
+
+  <style type="text/css">
+
+  #header {
+    margin-top:50px;
+  }
+
+  #header p {
+    text-align:right;
+    font-family:'Scout-Thin';
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    font-size:26px;
+  }
+
+  .color-grid {
+    color:#fff;
+    height:150px;
+    width:100%;
+    padding-top:45px;
+  }
+  .small-color-grid {
+    height:80px;
+    padding-top:25px;
+  }
+  .color-grid p {
+    text-align:center;
+    color:#fff;
+    font-family:'Boomer-Light';
+    font-size:22px;
+    margin-bottom:0px;
+  }
+  .small-color-grid p {
+    text-align:center;
+    color:#fff;
+    font-family:'Boomer-Light';
+    font-size:14px;
+    margin-bottom:0px;
+    line-height:1.4em;
+  }
+
+  [class*=block-grid-]>li {
+    padding:0px 5px 6px 0px;
+  }
+
+  .subsection {
+    padding:20px 0px;
+  }
+
+  code {
+    background-color:#eee;
+    padding:auto 3px;
+    color:#333;
+  }
+
+  [class*=sequential-] span {
+    height:10px;
+    display:block;
+    width:100%;
+  }
+
+  [class*=-hue-scales]>li{
+    height:20px;
+    background:#ccc;
+  }
+
+
+  .row.font-row {
+    margin-top:50px;
+  }
+
+  .fonts.publico p em {
+    font-family:'Publico-ExtraBold';
+    font-style:normal;
+    font-size:18px;
+  }
+  .fonts.publico p{
+    font-family:'Publico';
+    font-size:18px;
+  }
+  .fonts.scout p{
+    font-family:'Scout-Light';
+    font-size:22px;
+  }
+  .fonts.scout p em{
+    font-family:'Scout-Bold';
+    font-style:normal;
+    font-size:22px;
+  }
+  .fonts.boomer p{
+    font-family:'Boomer-Book';
+    font-size:18px;
+  }
+  .fonts.boomer p em{
+    font-family:'Boomer';
+    font-weight:bold;
+    font-style:normal;
+    font-size:18px;
+  }
+  .fonts.boomer-slab p{
+    font-family:'BoomerSlab-Light';
+    font-size:18px;
+  }
+  .fonts.boomer-slab p em{
+    font-family:'BoomerSlab';
+    font-weight:bold;
+    font-style:normal;
+    font-size:18px;
+  }
+  .publico-examples, .boomer-examples, .scout-examples, .boomer-slab-examples {
+    background-color:#eee;
+    padding:10px 15px;
+  }
+  .publico-examples p{
+    margin:0;
+    font-size:16px;
+    line-height:1.8em;
+  }
+  .scout-examples p{
+    margin:0;
+    line-height:1.6em;
+    font-size:20px;
+  }
+  p#scout-cond {
+    font-family:'ScoutCond';
+  }
+  p#scout-cond strong {
+    font-family:'ScoutCond';
+    font-weight:bold;
+  }
+  p#scout-cond em {
+    font-family:'ScoutCond';
+    font-style:italic;
+  }
+  p#scout-cond strong em {
+    font-family:'ScoutCond';
+    font-style:italic;
+    font-weight:bold;
+  }
+  .boomer-examples p{
+    margin:0;
+    line-height:1.8em;
+    font-size:16px;
+  }
+  p#boomer {
+    font-family:'Boomer';
+  }
+  p#boomer strong {
+   font-family:'Boomer';
+    font-weight:bold;
+  }
+  p#boomer em {
+    font-family:'Boomer';
+    font-style:italic;
+  }
+  p#boomer strong em {
+    font-family:'Boomer';
+    font-style:italic;
+    font-weight:bold;
+  }
+  p#boomer-cond {
+    font-family:'BoomerCond';
+  }
+  p#boomer-cond strong {
+   font-family:'BoomerCond';
+    font-weight:bold;
+  }
+  p#boomer-cond em {
+    font-family:'BoomerCond';
+    font-style:italic;
+  }
+  p#boomer-cond strong em {
+    font-family:'BoomerCond';
+    font-style:italic;
+    font-weight:bold;
+  }
+  p#boomer-slab {
+    font-family:'BoomerSlab';
+  }
+  p#boomer-slab strong {
+   font-family:'BoomerSlab';
+    font-weight:bold;
+  }
+  p#boomer-slab em {
+    font-family:'BoomerSlab';
+    font-style:italic;
+  }
+  p#boomer-slab strong em {
+    font-family:'BoomerSlab';
+    font-style:italic;
+    font-weight:bold;
+  }
+  p#boomer-slab-cond {
+    font-family:'BoomerSlabCond';
+  }
+  p#boomer-slab-cond strong {
+   font-family:'BoomerSlabCond';
+    font-weight:bold;
+  }
+  p#boomer-slab-cond em {
+    font-family:'BoomerSlabCond';
+    font-style:italic;
+  }
+  p#boomer-slab-cond strong em {
+    font-family:'BoomerSlabCond';
+    font-style:italic;
+    font-weight:bold;
+  }
+  .boomer-slab-examples p{
+    margin:0;
+    line-height:1.8em;
+    font-size:16px;
+  }
+
+
+
+  </style>
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="small-10 small-centered columns">
+      <div id="header">
+        <img src="images/AJC-Flagship.png"/>
+        <p>Digital Design Guide</p>
+      </div>
+    </div>
+  </div>
+
+<section>
+  <div class="row">
+    <div class="small-12 columns">
+      
+      <div class="title"><h2>Typography</h2></div>
+
+      <div class="subsection">
+        <div class="well well-header">
+          <p><strong>Default headings:</strong> The default headers will be in 'Publico' font, as will the default p font.</p>
+        </div>
+        <div class="well well-body">
+          <h1>h1 Example heading</h1>
+          <h2>h2 Example heading</h2>
+          <h3>h3 Example heading</h3>
+          <h4>h4 Example heading</h4>
+          <h5>h5 Example heading</h5>
+          <h6>h6 Example heading</h6>
+          <hr/>
+          <p>p Example paragraph. The quick brown fox jumps over the lazy dog. Lorem ipsum Eiusmod anim occaecat adipisicing exercitation eu consectetur ut cupidatat eu velit quis magna anim laboris commodo occaecat eiusmod dolore laboris officia minim nostrud ad sit Ut in sint irure non dolore labore nisi sint exercitation do proident non consectetur ex dolore sit in eiusmod laboris esse sed ex reprehenderit Excepteur ut sunt tempor Ut est commodo aute mollit labore deserunt eu ut culpa tempor amet cupidatat ex esse do sed velit ullamco sunt non elit aliquip magna ex ea consequat anim consectetur occaecat sint elit consequat mollit. <strong>This part is bold.</strong> <em>This part is italicized.</em></p>
+        </div>
+        <div class="well well-footer example-code">
+        <pre><code>&lt;h3&gt;Header text...&lt;/h3&gt;<br/>&lt;p&gt;Paragraph text...&lt;/p&gt;</code></pre>
+        </div>
+
+        <div class="well well-header">
+          <p><strong>Secondary header styles:</strong> Used on sidebars, charts, and other aside text pieces. Use with the class <code>.secondary</code></p>
+        </div>
+        <div class="well well-body">
+          <h1 class="secondary">h1.secondary Example heading</h1>
+          <h2 class="secondary">h2.secondary Example heading</h2>
+          <h3 class="secondary">h3.secondary Example heading</h3>
+          <h4 class="secondary">h4.secondary Example heading</h4>
+          <h5 class="secondary">h5.secondary Example heading</h5>
+          <h6 class="secondary">h6.secondary Example heading</h6>
+          <hr/>
+          <p class="secondary">p.secondary Example paragraph. The quick brown fox jumps over the lazy dog. Lorem ipsum Eiusmod anim occaecat adipisicing exercitation eu consectetur ut cupidatat eu velit quis magna anim laboris commodo occaecat eiusmod dolore laboris officia minim nostrud ad sit Ut in sint irure non dolore labore nisi sint exercitation do proident non consectetur ex dolore sit in eiusmod laboris esse sed ex reprehenderit Excepteur ut sunt tempor Ut est commodo aute mollit labore deserunt eu ut culpa tempor amet cupidatat ex esse do sed velit ullamco sunt non elit aliquip magna ex ea consequat anim consectetur occaecat sint elit consequat mollit. <strong>This part is bold.</strong> <em>This part is italicized.</em></p>
+        </div>
+        <div class="well well-footer example-code">
+        <pre><code>&lt;h3 class="secondary"&gt;Header text...&lt;/h3&gt;<br/>&lt;p class="secondary"&gt;Paragraph text...&lt;/p&gt;</code></pre>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="row">
+    <div class="medium-12 columns">
+      <div class="subsection">
+        <div class="title"><h2>Fonts</h2></div>
+
+        <div class="row font-row">
+          <div class="medium-6 columns">
+            <div class="fonts publico">
+              <p><em>Publico</em> is the predominant typeface used in our newspapers and is at the core of our typographic identity. It has the widest range of usage – from body text to headlines to the AJC namemplate. It's a workhorse that is appropriate for both news and features. It is not meant to be used all caps.</p>
+            </div>
+          </div>
+          <div class="medium-6 columns">
+            <div class="publico-examples">
+              <p style="font-family:Publico">Publico (normal, <i>italic</i>)</p>
+              <p style="font-family:Publico-Medium">Publico-Medium (normal, <i>italic</i>)</p>
+              <p style="font-family:Publico-Bold">Publico-Bold (normal, <i>italic</i>)</p>
+              <p style="font-family:Publico-ExtraBold">Publico-ExtraBold (normal, <i>italic</i>)</p>
+              <p style="font-family:Publico-Black">Publico-Black (normal, <i>italic</i>)</p>
+              <p style="font-family:Publico-Light">Publico-Light (normal, <i>italic</i>)</p>
+              <p style="font-family:PublicoText">PublicoText (normal, <i>italic</i>)</p>
+              <p style="font-family:PublicoText-SemiBold">PublicoText-SemiBold (normal, <i>italic</i>)</p>
+              <p style="font-family:PublicoText-Bold">PublicoText-Bold (normal, <i>italic</i>)</p>
+            </div>
+          </div>
+        </div>
+        <div class="row font-row">
+          <div class="medium-6 columns">
+            <div class="fonts scout">
+              <p><em>Scout</em> is a fresh, modern sans serif introduced to provide contrast in a Publico world. It's used as the lede headline on news display pages in print, for labels and briefs headlines. It works great all caps, and online, it works great in thin with lots of letter spacing.</p>
+            </div>
+          </div>
+          <div class="medium-6 columns">
+            <div class="scout-examples">
+              <p style="font-family:Scout">Scout (normal, <i>italic</i>)</p>
+              <p style="font-family:Scout-Light">Scout-Light (normal, <i>italic</i>)</p>
+              <p style="font-family:Scout-ExtraLight">Scout-ExtraLight (normal, <i>italic</i>)</p>
+              <p style="font-family:Scout-Thin">Scout-Thin (normal, <i>italic</i>)</p>
+              <p style="font-family:Scout-Bold">Scout-Bold (normal, <i>italic</i>)</p>
+              <p id="scout-cond" style="font-family:ScoutCond;font-size:26px;">ScoutCond (normal, <i>italic</i>, <strong>bold</strong>, <strong><i>bold italic</i></strong>)</p>
+            </div>
+          </div>
+        </div>
+        <div class="row font-row">
+
+          <div class="medium-6 columns">
+            <div class="fonts boomer">
+              <p>Use of <em>Boomer</em> – designed specifically for readability at small sizes – is limited to microtypography.</p>
+            </div>
+          </div>
+
+          <div class="medium-6 columns">
+              <div class="boomer-examples">
+                <p id="boomer" style="font-family:Boomer">Boomer (normal, <i>italic</i>, <strong>bold</strong>, <strong><i>bold italic</i></strong>)</p>
+                <p style="font-family:Boomer-Book">Boomer-Book (normal, <i>italic</i>)</p>
+                <p style="font-family:Boomer-Light">Boomer-Light (normal, <i>italic</i>)</p>
+                <p style="font-family:Boomer-Extra">Boomer-Extra (normal, <i>italic</i>)</p>
+                <p id="boomer-cond" style="font-family:BoomerCond">BoomerCond (normal, <i>italic</i>, <strong>bold</strong>, <strong><i>bold italic</i></strong>)</p>
+                <p style="font-family:BoomerCondBlack">BoomerCond-Black (normal, <i>italic</i>)</p>
+                <p style="font-family:BoomerCondBook">BoomerCond-Book (normal, <i>italic</i>)</p>
+                <p style="font-family:BoomerCondLight">BoomerCond-Light (normal, <i>italic</i>)</p>
+              </div>
+
+          </div>
+
+        </div>
+
+        <div class="row font-row">
+
+          <div class="medium-6 columns">
+            <div class="fonts boomer-slab">
+              <p><em>Boomer Slab</em> is a slab serif version of Boomer. Use sparingly. Works well in subheadlines and sidebars.</p>
+            </div>
+          </div>
+
+          <div class="medium-6 columns">
+              <div class="boomer-slab-examples">
+                <p id="boomer-slab" style="font-family:BoomerSlab">BoomerSlab (normal, <i>italic</i>, <strong>bold</strong>, <strong><i>bold italic</i></strong>)</p>
+                <p style="font-family:BoomerSlab-Book">BoomerSlab-Book (normal, <i>italic</i>)</p>
+                <p style="font-family:BoomerSlab-Light">BoomerSlab-Light (normal, <i>italic</i>)</p>
+                <p style="font-family:BoomerSlab-Extra">BoomerSlab-Extra (normal, <i>italic</i>)</p>
+                <p id="boomer-slab-cond" style="font-family:BoomerSlabCond">BoomerSlabCond (normal, <i>italic</i>, <strong>bold</strong>, <strong><i>bold italic</i></strong>)</p>
+                <p style="font-family:BoomerSlabCondBlack">BoomerSlabCond-Black (normal, <i>italic</i>)</p>
+                <p style="font-family:BoomerSlabCondBook">BoomerSlabCond-Book (normal, <i>italic</i>)</p>
+                <p style="font-family:BoomerSlabCondLight">BoomerSlabCond-Light (normal, <i>italic</i>)</p>
+              </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+
+  <div class="row">
+
+    <div class="small-12 columns">
+
+      <div class="title"><h2>Colors</h2></div>
+
+      <div class="subsection">
+      
+        <h3>Branding & data visualization color palette</h3>
+
+        <p>To use these colors as a background color, use the color name listed below in the class <code>.bg-{color-name}</code>. To use the color as a text color, use the name in the class <code>.color-{color-name}</code>. Use <a href="#">chroma.js</a> to programmatically manipulate the shades of each hue to reflect data changes (as exemplified below in brightening each shade).</p>
+
+        <div class="row">
+          <div class="medium-3 columns">
+            <div class="color-grid bg-ajc-blue">
+              <p>ajc-blue</p>
+              <p>#004181</p>
+            </div>
+          </div>
+          <div class="medium-9 columns">
+            <ul class="small-block-grid-7" id="data-viz">
+              <li>
+                <div class="small-color-grid data-red">
+                  <p>data-red</p>
+                  <p>#993035</p>
+                </div>
+                <div class="sequential-red">
+                </div>
+              </li>
+              <li>
+                <div class="small-color-grid data-orange">
+                  <p>data-orange</p>
+                  <p>#bf653c</p>
+                </div>
+                <div class="sequential-orange">
+                </div>
+              </li>
+              <li>
+                <div class="small-color-grid data-yellow">
+                  <p>data-yellow</p>
+                  <p>#e8cd5b</p>
+                </div>
+                <div class="sequential-yellow">
+                </div>
+              </li>
+              <li>
+                <div class="small-color-grid data-green">
+                  <p>data-green</p>
+                  <p>#489162</p>
+                </div>
+                <div class="sequential-green">
+                </div>
+              </li>
+              <li>
+                <div class="small-color-grid data-blue">
+                  <p>data-blue</p>
+                  <p>#3e7b9b</p>
+                </div>
+                <div class="sequential-blue">
+                </div>
+              </li>
+              <li>
+                <div class="small-color-grid data-indigo">
+                  <p>data-indigo</p>
+                  <p>#304d70</p>
+                </div>
+                <div class="sequential-indigo">
+                </div>
+              </li>
+              <li>
+                <div class="small-color-grid data-violet">
+                  <p>data-violet</p>
+                  <p>#423859</p>
+                </div>
+                <div class="sequential-violet">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+  <script src="scripts/lib/jquery.js"></script>
+  <script src="scripts/lib/underscore.js"></script>
+  <script src="scripts/lib/backbone.js"></script>
+  <script src="scripts/lib/d3.js"></script>
+  <script src="scripts/lib/d3bb.js"></script>
+  <script src="scripts/lib/foundation.js"></script>
+  <script src="scripts/lib/chroma.js"></script>
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- /build -->
+
+</body>
+</html>
