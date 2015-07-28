@@ -586,18 +586,6 @@
 	}
 	@font-face {
 		font-family: ScoutCond;
-		src: url('fonts/Scout/SCOUTCOND-BOLD.OTF');
-		font-weight:bold;
-		font-style:normal;
-	}
-	@font-face {
-		font-family: ScoutCond;
-		src: url('fonts/Scout/SCOUNTCOND-BOLDITALIC.OTF');
-		font-weight:bold;
-		font-style:italic;
-	}
-	@font-face {
-		font-family: ScoutCond;
 		src: url('fonts/Scout/SCOUTCOND-EXTRALIGHT.OTF');
 		font-weight:normal;
 		font-style:normal;
@@ -606,6 +594,18 @@
 		font-family: ScoutCond;
 		src: url('fonts/Scout/SCOUTCOND-EXTRALIGHTITALIC.OTF');
 		font-weight:normal;
+		font-style:italic;
+	}
+	@font-face {
+		font-family: ScoutCond;
+		src: url('fonts/Scout/SCOUTCOND-BOLD.OTF');
+		font-weight:bold;
+		font-style:normal;
+	}
+	@font-face {
+		font-family: ScoutCond;
+		src: url('fonts/Scout/SCOUNTCOND-BOLDITALIC.OTF');
+		font-weight:bold;
 		font-style:italic;
 	}
 
