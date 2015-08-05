@@ -14,7 +14,13 @@ logs
 results
 tmp
 bower
-
+config
+.bowerrc
+Gruntfile.js
+SpecRunner.html
+test
+src
+spec
 npm-debug.log
 node_modules
 aws.json
