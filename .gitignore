@@ -14,12 +14,9 @@ logs
 results
 tmp
 bower
-src
-config
 test
+spec
 SpecRunner.html
-Gruntfile.js
-.gitignore
 npm-debug.log
 node_modules
 aws.json

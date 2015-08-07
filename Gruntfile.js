@@ -75,6 +75,7 @@ module.exports = function(grunt) {
           { expand: true, flatten: true, src: ['src/style/fonts/boomerslab_cond*'], dest: 'build/style/fonts/boomerslab_cond' },
           { expand: true, flatten: true, src: ['src/style/fonts/boomerslab_extracond/*'], dest: 'build/style/fonts/boomerslab_extracond/' },
           { expand: true, flatten: true, src: ['src/style/fonts/publico/*'], dest: 'build/style/fonts/publico/' },
+          { expand: true, flatten: true, src: ['src/style/fonts/Scout/*'], dest: 'build/style/fonts/Scout/' },
           { expand: true, flatten: true, src: ['bower/modernizr/modernizr.js'], dest: 'build/scripts/lib/' },
           { expand: true, flatten: true, src: ['src/scripts/lib/flatpage_stubs.js'], dest: 'build/scripts/lib/' },
           { expand: true, flatten: true, src: ['src/robots.txt'], dest: 'build/' }
@@ -148,7 +149,6 @@ module.exports = function(grunt) {
           report: 'gzip'
         },
         files: {
-          'build/style/app.css'       : ['src/style/app.css'],
           'build/style/fonts.css'     : ['src/style/fonts.css'],
           'build/style/normalize.css' : ['src/style/normalize.css'],
           'build/style/foundation.css': ['src/style/foundation.min.css']
