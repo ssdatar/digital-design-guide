@@ -772,10 +772,6 @@ p em {
 	font-style:italic;
 }
 
-section {
-	border-bottom:1px solid #ddd;
-	padding:50px 0px;
-}
 .well {
 	border:1px solid #ddd;
 	padding:20px;
@@ -806,32 +802,6 @@ section {
 .well p {
 	margin-bottom:0px;
 }
-
-
-section .title {
-	margin: 20px auto 20px auto;
-	padding: 0;
-	height: 1em;
-	text-align: center;
-	font-size: 1.3em;
-	line-height: 1.329em;
-	border-bottom: 1px dotted #aaa;
-	width:95%;
-	max-width:400px;
-	/*text-transform: uppercase;*/
-}
-section .title h2 {
-	margin-top:-6px;
-	text-align: center;
-	display: inline-block;
-	padding: 5px 10px;
-	background: #fff;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	/*letter-spacing: 1.5px;*/
-}
-
 
 
 /* section colors */
