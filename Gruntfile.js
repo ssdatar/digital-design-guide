@@ -72,7 +72,7 @@ module.exports = function(grunt) {
           { expand: true, flatten: true, src: ['src/style/fonts/boomer_cond/*'], dest: 'build/style/fonts/boomer_cond/' },
           { expand: true, flatten: true, src: ['src/style/fonts/boomer_extracond/*'], dest: 'build/style/fonts/boomer_extracond/' },
           { expand: true, flatten: true, src: ['src/style/fonts/boomerslab/*'], dest: 'build/style/fonts/boomerslab/' },
-          { expand: true, flatten: true, src: ['src/style/fonts/boomerslab_cond*'], dest: 'build/style/fonts/boomerslab_cond' },
+          { expand: true, flatten: true, src: ['src/style/fonts/boomerslab_cond/*'], dest: 'build/style/fonts/boomerslab_cond/' },
           { expand: true, flatten: true, src: ['src/style/fonts/boomerslab_extracond/*'], dest: 'build/style/fonts/boomerslab_extracond/' },
           { expand: true, flatten: true, src: ['src/style/fonts/publico/*'], dest: 'build/style/fonts/publico/' },
           { expand: true, flatten: true, src: ['src/style/fonts/Scout/*'], dest: 'build/style/fonts/Scout/' },
