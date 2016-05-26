@@ -774,7 +774,7 @@ p em {
 
 section {
 	border-bottom:1px solid #ddd;
-	padding:50px 0px;
+/*  padding:50px 0px;*/
 }
 .well {
 	border:1px solid #ddd;
