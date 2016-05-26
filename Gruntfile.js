@@ -108,8 +108,7 @@ module.exports = function(grunt) {
     uglify: {
       options: {
         mangle: { except: ['d3', '_','$'] },
-        compress: true,
-        report: 'gzip'
+        compress: {}
       },
       my_target: {
         files: {
@@ -145,9 +144,6 @@ module.exports = function(grunt) {
 
     cssmin: {
       compress: {
-        options: {
-          report: 'gzip'
-        },
         files: {
           'build/style/fonts.css'     : ['src/style/fonts.css'],
           'build/style/normalize.css' : ['src/style/normalize.css'],
