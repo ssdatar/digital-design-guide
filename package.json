@@ -1,9 +1,0 @@
-{
-  "name": "template-style",
-  "description": "The best project ever.",
-  "version": "0.1.0",
-  "devDependencies": {
-    "selenium-chromedriver": "0.0.1",
-    "selenium-webdriver": "^2.42.1"
-  }
-}
